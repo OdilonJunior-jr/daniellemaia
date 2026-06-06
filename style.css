@@ -1579,3 +1579,22 @@ body::-webkit-scrollbar-thumb:hover {
 .feature-action--static {
   display: none !important;
 }
+
+
+
+/* Card Portfólio superior desativado */
+.nav-card--disabled {
+  cursor: default;
+}
+
+.nav-card--disabled:hover,
+.nav-card--disabled:focus-visible {
+  transform: none;
+  border-color: var(--line);
+  box-shadow: var(--shadow-soft);
+  outline: none;
+}
+
+.nav-card--disabled b {
+  opacity: 0.35;
+}
